@@ -23,5 +23,13 @@ borguitsba:sparky
 hipspork:ranger
 crayonfour:starwars
 aralmoni:cheese
+barrxhorr:woodhewer
+wareamin:trusts
+omahardee:decivilize
+ninjakeeper:anomal
+royalcortli:gladeye
+chiricsen:Britisher
+dunawitec:Garcons
+baignolje:Antichurch
 
-25 password hashes cracked, 25 left
+33 password hashes cracked, 17 left
