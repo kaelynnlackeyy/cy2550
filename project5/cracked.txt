@@ -34,5 +34,6 @@ baignolje:Antichurch
 liciolog:prewarned7
 breakingum:unquiets9
 teeratec:desertions6
+aquaverit:Syndromic9
 
-36 password hashes cracked, 14 left
+37 password hashes cracked, 13 left
