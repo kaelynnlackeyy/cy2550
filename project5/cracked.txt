@@ -37,5 +37,6 @@ teeratec:desertions6
 lynnaps:Casein9
 aquaverit:Syndromic9
 twitterni:Sapajous0
+acetylesorc:Shasliks5
 
-39 password hashes cracked, 11 left
+40 password hashes cracked, 10 left
