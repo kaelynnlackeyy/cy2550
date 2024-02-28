@@ -1,0 +1,290 @@
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 50 password hashes with 50 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Remaining 25 password hashes with 25 different salts
+1 0:00:00:00 - Node numbers 1-4 of 4 (fork)
+2 0:00:00:00 Command line: john --wordlist=/Users/kaelynnlackey/Desktop/john.txt --rules --fork=4 /Users/kaelynnlackey/githubrepo/cy2550/project5/passwords --session=session1 
+2 0:00:00:00 - UTF-8 input encoding enabled
+2 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:00:00 - Will reject candidates longer than 15 bytes
+2 0:00:00:00 Proceeding with wordlist mode
+2 0:00:00:00 - Rules: Wordlist
+2 0:00:00:00 - Wordlist file: /Users/kaelynnlackey/Desktop/john.txt
+2 0:00:00:00 - memory mapping wordlist (26326 bytes)
+2 0:00:00:00 - loaded this node's share of wordfile /Users/kaelynnlackey/Desktop/john.txt into memory (6360 bytes of 26326, max_size=2147483648 avg/node)
+2 0:00:00:00 - wordfile had 887 lines and required 7096 bytes for index.
+2 0:00:00:00 - 57 preprocessed word mangling rules
+4 0:00:00:00 Command line: john --wordlist=/Users/kaelynnlackey/Desktop/john.txt --rules --fork=4 /Users/kaelynnlackey/githubrepo/cy2550/project5/passwords --session=session1 
+4 0:00:00:00 - UTF-8 input encoding enabled
+4 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:00:00 - Will reject candidates longer than 15 bytes
+4 0:00:00:00 Proceeding with wordlist mode
+4 0:00:00:00 - Rules: Wordlist
+4 0:00:00:00 - Wordlist file: /Users/kaelynnlackey/Desktop/john.txt
+4 0:00:00:00 - memory mapping wordlist (26326 bytes)
+4 0:00:00:00 - loaded this node's share of wordfile /Users/kaelynnlackey/Desktop/john.txt into memory (6382 bytes of 26326, max_size=2147483648 avg/node)
+4 0:00:00:00 - wordfile had 886 lines and required 7088 bytes for index.
+4 0:00:00:00 - 57 preprocessed word mangling rules
+3 0:00:00:00 Command line: john --wordlist=/Users/kaelynnlackey/Desktop/john.txt --rules --fork=4 /Users/kaelynnlackey/githubrepo/cy2550/project5/passwords --session=session1 
+3 0:00:00:00 - UTF-8 input encoding enabled
+3 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:00:00 - Will reject candidates longer than 15 bytes
+3 0:00:00:00 Proceeding with wordlist mode
+3 0:00:00:00 - Rules: Wordlist
+3 0:00:00:00 - Wordlist file: /Users/kaelynnlackey/Desktop/john.txt
+3 0:00:00:00 - memory mapping wordlist (26326 bytes)
+3 0:00:00:00 - loaded this node's share of wordfile /Users/kaelynnlackey/Desktop/john.txt into memory (6407 bytes of 26326, max_size=2147483648 avg/node)
+3 0:00:00:00 - wordfile had 887 lines and required 7096 bytes for index.
+3 0:00:00:00 - 57 preprocessed word mangling rules
+1 0:00:00:00 Command line: john --wordlist=/Users/kaelynnlackey/Desktop/john.txt --rules --fork=4 /Users/kaelynnlackey/githubrepo/cy2550/project5/passwords --session=session1 
+1 0:00:00:00 - UTF-8 input encoding enabled
+1 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:00:00 - Hash type: md5crypt, crypt(3) $1$ (and variants) (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+1 0:00:00:00 - Algorithm: MD5 128/128 ASIMD 4x2
+1 0:00:00:00 - Configured to use otherwise idle processor cycles only
+1 0:00:00:00 - Will reject candidates longer than 15 bytes
+1 0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 8
+1 0:00:00:00 Proceeding with wordlist mode
+1 0:00:00:00 - Rules: Wordlist
+1 0:00:00:00 - Wordlist file: /Users/kaelynnlackey/Desktop/john.txt
+1 0:00:00:00 - memory mapping wordlist (26326 bytes)
+1 0:00:00:00 - loaded this node's share of wordfile /Users/kaelynnlackey/Desktop/john.txt into memory (6440 bytes of 26326, max_size=2147483648 avg/node)
+1 0:00:00:00 - wordfile had 886 lines and required 7088 bytes for index.
+1 0:00:00:00 - 57 preprocessed word mangling rules
+4 0:00:00:00 - No stacked rules
+4 0:00:00:00 - Rule #1: ':' accepted as ''
+4 0:00:00:01 - Rule #2: '-c >3 !?X l Q' accepted as '>3!?XlQ'
+4 0:00:00:01 - Rule #3: '-c (?a >2 !?X c Q' accepted as '(?a>2!?XcQ'
+4 0:00:00:02 - Rule #4: '<* >2 !?A l p' accepted as '<*>2!?Alp'
+4 0:00:00:03 - Rule #5: '<* >2 !?A l $1' accepted as '<*>2!?Al$1'
+4 0:00:00:05 - Rule #6: '-c <* >2 !?A c $1' accepted as '<*>2!?Ac$1'
+4 0:00:00:06 - Rule #7: '<7 >1 !?A l d' accepted as '<7>1!?Ald'
+4 0:00:00:07 - Rule #8: '>3 !?A l M r Q' accepted as '>3!?AlMrQ'
+4 0:00:00:08 - Rule #9: '>2 !?A l ^1' accepted as '>2!?Al^1'
+4 0:00:00:09 - Rule #10: '-c >2 !?X u Q M c Q u' accepted as '>2!?XuQMcQu'
+4 0:00:00:10 - Rule #11: '<* >2 !?A l $2' accepted as '<*>2!?Al$2'
+4 0:00:00:12 - Rule #12: '<* >2 !?A l $!' accepted as '<*>2!?Al$!'
+4 0:00:00:13 - Rule #13: '<* >2 !?A l $3' accepted as '<*>2!?Al$3'
+4 0:00:00:14 - Rule #14: '<* >2 !?A l $7' accepted as '<*>2!?Al$7'
+4 0:00:00:15 - Rule #15: '<* >2 !?A l $9' accepted as '<*>2!?Al$9'
+4 0:00:00:16 - Rule #16: '<* >2 !?A l $5' accepted as '<*>2!?Al$5'
+4 0:00:00:18 - Rule #17: '<* >2 !?A l $4' accepted as '<*>2!?Al$4'
+4 0:00:00:19 - Rule #18: '<* >2 !?A l $8' accepted as '<*>2!?Al$8'
+4 0:00:00:20 - Rule #19: '<* >2 !?A l $6' accepted as '<*>2!?Al$6'
+4 0:00:00:21 - Rule #20: '<* >2 !?A l $0' accepted as '<*>2!?Al$0'
+4 0:00:00:22 - Rule #21: '<* >2 !?A l $.' accepted as '<*>2!?Al$.'
+4 0:00:00:24 - Rule #22: '<* >2 !?A l $?' accepted as '<*>2!?Al$?'
+4 0:00:00:25 - Rule #23: '/?p @?p >3 l' accepted as '/?p@?p>3l'
+4 0:00:00:25 - Rule #24: '/?v @?v >3 l' accepted as '/?v@?v>3l'
+4 0:00:00:26 - Rule #25: '/?w @?w >3 l' accepted as '/?w@?w>3l'
+4 0:00:00:26 - Rule #26: '-c <7 >1 !?A c d' accepted as '<7>1!?Acd'
+4 0:00:00:26 - Rule #27: '-c <+ >2 !?A c r' accepted as '<+>2!?Acr'
+4 0:00:00:28 - Rule #28: '-c >2 !?A l M r Q c' accepted as '>2!?AlMrQc'
+4 0:00:00:29 - Rule #29: '<7 >1 !?A l d M 'l f Q' accepted as '<7>1!?AldM'lfQ'
+4 0:00:00:30 - Rule #30: '-c <+ >2 !?A l M r Q c r' accepted as '<+>2!?AlMrQcr'
+4 0:00:00:31 - Rule #31: '>2 !?A l ^2' accepted as '>2!?Al^2'
+4 0:00:00:32 - Rule #32: '>2 !?A l ^4' accepted as '>2!?Al^4'
+4 0:00:00:33 - Rule #33: '-c <* >2 !?A c $2' accepted as '<*>2!?Ac$2'
+4 0:00:00:35 - Rule #34: '-c <* >2 !?A c $!' accepted as '<*>2!?Ac$!'
+4 0:00:00:36 - Rule #35: '-c <* >2 !?A c $3' accepted as '<*>2!?Ac$3'
+4 0:00:00:37 - Rule #36: '-c <* >2 !?A c $9' accepted as '<*>2!?Ac$9'
+4 0:00:00:38 - Rule #37: '-c <* >2 !?A c $5' accepted as '<*>2!?Ac$5'
+4 0:00:00:39 - Rule #38: '-c <* >2 !?A c $7' accepted as '<*>2!?Ac$7'
+4 0:00:00:41 - Rule #39: '-c <* >2 !?A c $4' accepted as '<*>2!?Ac$4'
+4 0:00:00:42 - Rule #40: '-c <* >2 !?A c $6' accepted as '<*>2!?Ac$6'
+4 0:00:00:43 - Rule #41: '-c <* >2 !?A c $8' accepted as '<*>2!?Ac$8'
+4 0:00:00:44 - Rule #42: '-c <* >2 !?A c $.' accepted as '<*>2!?Ac$.'
+4 0:00:00:46 - Rule #43: '-c <* >2 !?A c $?' accepted as '<*>2!?Ac$?'
+4 0:00:00:47 - Rule #44: '-c <* >2 !?A c $0' accepted as '<*>2!?Ac$0'
+4 0:00:00:48 - Rule #45: '>2 !?A l ^3' accepted as '>2!?Al^3'
+4 0:00:00:49 - Rule #46: '>2 !?A l ^7' accepted as '>2!?Al^7'
+4 0:00:00:51 - Rule #47: '>2 !?A l ^9' accepted as '>2!?Al^9'
+4 0:00:00:52 - Rule #48: '>2 !?A l ^5' accepted as '>2!?Al^5'
+4 0:00:00:53 - Rule #49: '>2 !?A l ^6' accepted as '>2!?Al^6'
+4 0:00:00:54 - Rule #50: '>2 !?A l ^8' accepted as '>2!?Al^8'
+4 0:00:00:55 - Rule #51: '-c <* >2 !?A c p' accepted as '<*>2!?Acp'
+4 0:00:00:57 - Rule #52: '-: <* >2 !?A l M P Q' accepted as '<*>2!?AlMPQ'
+4 0:00:00:58 - Rule #53: '-: <* >2 !?A l M I Q' accepted as '<*>2!?AlMIQ'
+4 0:00:00:59 - Rule #54: '-c <* >2 !?A c M P Q' accepted as '<*>2!?AcMPQ'
+2 0:00:00:00 - No stacked rules
+2 0:00:00:00 - Rule #1: ':' accepted as ''
+2 0:00:00:01 - Rule #2: '-c >3 !?X l Q' accepted as '>3!?XlQ'
+2 0:00:00:01 - Rule #3: '-c (?a >2 !?X c Q' accepted as '(?a>2!?XcQ'
+2 0:00:00:02 - Rule #4: '<* >2 !?A l p' accepted as '<*>2!?Alp'
+2 0:00:00:03 - Rule #5: '<* >2 !?A l $1' accepted as '<*>2!?Al$1'
+2 0:00:00:05 - Rule #6: '-c <* >2 !?A c $1' accepted as '<*>2!?Ac$1'
+2 0:00:00:06 - Rule #7: '<7 >1 !?A l d' accepted as '<7>1!?Ald'
+2 0:00:00:07 - Rule #8: '>3 !?A l M r Q' accepted as '>3!?AlMrQ'
+2 0:00:00:08 - Rule #9: '>2 !?A l ^1' accepted as '>2!?Al^1'
+2 0:00:00:09 - Rule #10: '-c >2 !?X u Q M c Q u' accepted as '>2!?XuQMcQu'
+2 0:00:00:10 - Rule #11: '<* >2 !?A l $2' accepted as '<*>2!?Al$2'
+2 0:00:00:11 - Rule #12: '<* >2 !?A l $!' accepted as '<*>2!?Al$!'
+2 0:00:00:13 - Rule #13: '<* >2 !?A l $3' accepted as '<*>2!?Al$3'
+2 0:00:00:14 - Rule #14: '<* >2 !?A l $7' accepted as '<*>2!?Al$7'
+2 0:00:00:15 - Rule #15: '<* >2 !?A l $9' accepted as '<*>2!?Al$9'
+2 0:00:00:16 - Rule #16: '<* >2 !?A l $5' accepted as '<*>2!?Al$5'
+2 0:00:00:17 - Rule #17: '<* >2 !?A l $4' accepted as '<*>2!?Al$4'
+2 0:00:00:19 - Rule #18: '<* >2 !?A l $8' accepted as '<*>2!?Al$8'
+2 0:00:00:20 - Rule #19: '<* >2 !?A l $6' accepted as '<*>2!?Al$6'
+2 0:00:00:21 - Rule #20: '<* >2 !?A l $0' accepted as '<*>2!?Al$0'
+2 0:00:00:22 - Rule #21: '<* >2 !?A l $.' accepted as '<*>2!?Al$.'
+2 0:00:00:23 - Rule #22: '<* >2 !?A l $?' accepted as '<*>2!?Al$?'
+2 0:00:00:25 - Rule #23: '/?p @?p >3 l' accepted as '/?p@?p>3l'
+2 0:00:00:25 - Rule #24: '/?v @?v >3 l' accepted as '/?v@?v>3l'
+2 0:00:00:25 - Rule #25: '/?w @?w >3 l' accepted as '/?w@?w>3l'
+2 0:00:00:25 - Rule #26: '-c <7 >1 !?A c d' accepted as '<7>1!?Acd'
+2 0:00:00:26 - Rule #27: '-c <+ >2 !?A c r' accepted as '<+>2!?Acr'
+2 0:00:00:28 - Rule #28: '-c >2 !?A l M r Q c' accepted as '>2!?AlMrQc'
+2 0:00:00:29 - Rule #29: '<7 >1 !?A l d M 'l f Q' accepted as '<7>1!?AldM'lfQ'
+2 0:00:00:29 - Rule #30: '-c <+ >2 !?A l M r Q c r' accepted as '<+>2!?AlMrQcr'
+2 0:00:00:31 - Rule #31: '>2 !?A l ^2' accepted as '>2!?Al^2'
+2 0:00:00:32 - Rule #32: '>2 !?A l ^4' accepted as '>2!?Al^4'
+2 0:00:00:33 - Rule #33: '-c <* >2 !?A c $2' accepted as '<*>2!?Ac$2'
+2 0:00:00:34 - Rule #34: '-c <* >2 !?A c $!' accepted as '<*>2!?Ac$!'
+2 0:00:00:36 - Rule #35: '-c <* >2 !?A c $3' accepted as '<*>2!?Ac$3'
+2 0:00:00:37 - Rule #36: '-c <* >2 !?A c $9' accepted as '<*>2!?Ac$9'
+2 0:00:00:38 - Rule #37: '-c <* >2 !?A c $5' accepted as '<*>2!?Ac$5'
+2 0:00:00:39 - Rule #38: '-c <* >2 !?A c $7' accepted as '<*>2!?Ac$7'
+2 0:00:00:40 - Rule #39: '-c <* >2 !?A c $4' accepted as '<*>2!?Ac$4'
+2 0:00:00:42 - Rule #40: '-c <* >2 !?A c $6' accepted as '<*>2!?Ac$6'
+2 0:00:00:43 - Rule #41: '-c <* >2 !?A c $8' accepted as '<*>2!?Ac$8'
+2 0:00:00:44 - Rule #42: '-c <* >2 !?A c $.' accepted as '<*>2!?Ac$.'
+2 0:00:00:45 - Rule #43: '-c <* >2 !?A c $?' accepted as '<*>2!?Ac$?'
+2 0:00:00:47 - Rule #44: '-c <* >2 !?A c $0' accepted as '<*>2!?Ac$0'
+2 0:00:00:48 - Rule #45: '>2 !?A l ^3' accepted as '>2!?Al^3'
+2 0:00:00:49 - Rule #46: '>2 !?A l ^7' accepted as '>2!?Al^7'
+2 0:00:00:50 - Rule #47: '>2 !?A l ^9' accepted as '>2!?Al^9'
+2 0:00:00:51 - Rule #48: '>2 !?A l ^5' accepted as '>2!?Al^5'
+2 0:00:00:53 - Rule #49: '>2 !?A l ^6' accepted as '>2!?Al^6'
+2 0:00:00:54 - Rule #50: '>2 !?A l ^8' accepted as '>2!?Al^8'
+2 0:00:00:55 - Rule #51: '-c <* >2 !?A c p' accepted as '<*>2!?Acp'
+2 0:00:00:56 - Rule #52: '-: <* >2 !?A l M P Q' accepted as '<*>2!?AlMPQ'
+2 0:00:00:57 - Rule #53: '-: <* >2 !?A l M I Q' accepted as '<*>2!?AlMIQ'
+2 0:00:00:59 - Rule #54: '-c <* >2 !?A c M P Q' accepted as '<*>2!?AcMPQ'
+3 0:00:00:00 - No stacked rules
+3 0:00:00:00 - Rule #1: ':' accepted as ''
+3 0:00:00:01 - Rule #2: '-c >3 !?X l Q' accepted as '>3!?XlQ'
+3 0:00:00:01 - Rule #3: '-c (?a >2 !?X c Q' accepted as '(?a>2!?XcQ'
+3 0:00:00:02 - Rule #4: '<* >2 !?A l p' accepted as '<*>2!?Alp'
+3 0:00:00:03 - Rule #5: '<* >2 !?A l $1' accepted as '<*>2!?Al$1'
+3 0:00:00:05 - Rule #6: '-c <* >2 !?A c $1' accepted as '<*>2!?Ac$1'
+3 0:00:00:06 - Rule #7: '<7 >1 !?A l d' accepted as '<7>1!?Ald'
+3 0:00:00:06 - Rule #8: '>3 !?A l M r Q' accepted as '>3!?AlMrQ'
+3 0:00:00:08 - Rule #9: '>2 !?A l ^1' accepted as '>2!?Al^1'
+3 0:00:00:09 - Rule #10: '-c >2 !?X u Q M c Q u' accepted as '>2!?XuQMcQu'
+3 0:00:00:10 - Rule #11: '<* >2 !?A l $2' accepted as '<*>2!?Al$2'
+3 0:00:00:11 - Rule #12: '<* >2 !?A l $!' accepted as '<*>2!?Al$!'
+3 0:00:00:12 - Rule #13: '<* >2 !?A l $3' accepted as '<*>2!?Al$3'
+3 0:00:00:14 - Rule #14: '<* >2 !?A l $7' accepted as '<*>2!?Al$7'
+3 0:00:00:15 - Rule #15: '<* >2 !?A l $9' accepted as '<*>2!?Al$9'
+3 0:00:00:16 - Rule #16: '<* >2 !?A l $5' accepted as '<*>2!?Al$5'
+3 0:00:00:17 - Rule #17: '<* >2 !?A l $4' accepted as '<*>2!?Al$4'
+3 0:00:00:18 - Rule #18: '<* >2 !?A l $8' accepted as '<*>2!?Al$8'
+3 0:00:00:19 - Rule #19: '<* >2 !?A l $6' accepted as '<*>2!?Al$6'
+3 0:00:00:21 - Rule #20: '<* >2 !?A l $0' accepted as '<*>2!?Al$0'
+3 0:00:00:22 - Rule #21: '<* >2 !?A l $.' accepted as '<*>2!?Al$.'
+3 0:00:00:23 - Rule #22: '<* >2 !?A l $?' accepted as '<*>2!?Al$?'
+3 0:00:00:24 - Rule #23: '/?p @?p >3 l' accepted as '/?p@?p>3l'
+3 0:00:00:24 - Rule #24: '/?v @?v >3 l' accepted as '/?v@?v>3l'
+3 0:00:00:25 - Rule #25: '/?w @?w >3 l' accepted as '/?w@?w>3l'
+3 0:00:00:25 - Rule #26: '-c <7 >1 !?A c d' accepted as '<7>1!?Acd'
+3 0:00:00:26 - Rule #27: '-c <+ >2 !?A c r' accepted as '<+>2!?Acr'
+3 0:00:00:27 - Rule #28: '-c >2 !?A l M r Q c' accepted as '>2!?AlMrQc'
+3 0:00:00:28 - Rule #29: '<7 >1 !?A l d M 'l f Q' accepted as '<7>1!?AldM'lfQ'
+3 0:00:00:29 - Rule #30: '-c <+ >2 !?A l M r Q c r' accepted as '<+>2!?AlMrQcr'
+3 0:00:00:30 - Rule #31: '>2 !?A l ^2' accepted as '>2!?Al^2'
+3 0:00:00:31 - Rule #32: '>2 !?A l ^4' accepted as '>2!?Al^4'
+3 0:00:00:32 - Rule #33: '-c <* >2 !?A c $2' accepted as '<*>2!?Ac$2'
+3 0:00:00:34 - Rule #34: '-c <* >2 !?A c $!' accepted as '<*>2!?Ac$!'
+3 0:00:00:35 - Rule #35: '-c <* >2 !?A c $3' accepted as '<*>2!?Ac$3'
+3 0:00:00:36 - Rule #36: '-c <* >2 !?A c $9' accepted as '<*>2!?Ac$9'
+3 0:00:00:37 - Rule #37: '-c <* >2 !?A c $5' accepted as '<*>2!?Ac$5'
+3 0:00:00:38 - Rule #38: '-c <* >2 !?A c $7' accepted as '<*>2!?Ac$7'
+3 0:00:00:39 - Rule #39: '-c <* >2 !?A c $4' accepted as '<*>2!?Ac$4'
+3 0:00:00:41 - Rule #40: '-c <* >2 !?A c $6' accepted as '<*>2!?Ac$6'
+3 0:00:00:42 - Rule #41: '-c <* >2 !?A c $8' accepted as '<*>2!?Ac$8'
+3 0:00:00:43 - Rule #42: '-c <* >2 !?A c $.' accepted as '<*>2!?Ac$.'
+3 0:00:00:44 - Rule #43: '-c <* >2 !?A c $?' accepted as '<*>2!?Ac$?'
+3 0:00:00:45 - Rule #44: '-c <* >2 !?A c $0' accepted as '<*>2!?Ac$0'
+3 0:00:00:47 - Rule #45: '>2 !?A l ^3' accepted as '>2!?Al^3'
+3 0:00:00:48 - Rule #46: '>2 !?A l ^7' accepted as '>2!?Al^7'
+3 0:00:00:49 - Rule #47: '>2 !?A l ^9' accepted as '>2!?Al^9'
+3 0:00:00:50 - Rule #48: '>2 !?A l ^5' accepted as '>2!?Al^5'
+3 0:00:00:51 - Rule #49: '>2 !?A l ^6' accepted as '>2!?Al^6'
+3 0:00:00:53 - Rule #50: '>2 !?A l ^8' accepted as '>2!?Al^8'
+3 0:00:00:54 - Rule #51: '-c <* >2 !?A c p' accepted as '<*>2!?Acp'
+3 0:00:00:55 - Rule #52: '-: <* >2 !?A l M P Q' accepted as '<*>2!?AlMPQ'
+3 0:00:00:56 - Rule #53: '-: <* >2 !?A l M I Q' accepted as '<*>2!?AlMIQ'
+3 0:00:00:57 - Rule #54: '-c <* >2 !?A c M P Q' accepted as '<*>2!?AcMPQ'
+3 0:00:00:58 - Rule #55: '-c <* >2 !?A c M I Q' accepted as '<*>2!?AcMIQ'
+1 0:00:00:00 - No stacked rules
+1 0:00:00:00 - Rule #1: ':' accepted as ''
+1 0:00:00:01 - Rule #2: '-c >3 !?X l Q' accepted as '>3!?XlQ'
+1 0:00:00:01 - Rule #3: '-c (?a >2 !?X c Q' accepted as '(?a>2!?XcQ'
+1 0:00:00:02 - Rule #4: '<* >2 !?A l p' accepted as '<*>2!?Alp'
+1 0:00:00:03 - Rule #5: '<* >2 !?A l $1' accepted as '<*>2!?Al$1'
+1 0:00:00:05 - Rule #6: '-c <* >2 !?A c $1' accepted as '<*>2!?Ac$1'
+1 0:00:00:06 - Rule #7: '<7 >1 !?A l d' accepted as '<7>1!?Ald'
+1 0:00:00:07 - Rule #8: '>3 !?A l M r Q' accepted as '>3!?AlMrQ'
+1 0:00:00:08 - Rule #9: '>2 !?A l ^1' accepted as '>2!?Al^1'
+1 0:00:00:09 - Rule #10: '-c >2 !?X u Q M c Q u' accepted as '>2!?XuQMcQu'
+1 0:00:00:10 - Rule #11: '<* >2 !?A l $2' accepted as '<*>2!?Al$2'
+1 0:00:00:11 - Rule #12: '<* >2 !?A l $!' accepted as '<*>2!?Al$!'
+1 0:00:00:13 - Rule #13: '<* >2 !?A l $3' accepted as '<*>2!?Al$3'
+1 0:00:00:14 - Rule #14: '<* >2 !?A l $7' accepted as '<*>2!?Al$7'
+1 0:00:00:15 - Rule #15: '<* >2 !?A l $9' accepted as '<*>2!?Al$9'
+1 0:00:00:16 - Rule #16: '<* >2 !?A l $5' accepted as '<*>2!?Al$5'
+1 0:00:00:17 - Rule #17: '<* >2 !?A l $4' accepted as '<*>2!?Al$4'
+1 0:00:00:19 - Rule #18: '<* >2 !?A l $8' accepted as '<*>2!?Al$8'
+1 0:00:00:20 - Rule #19: '<* >2 !?A l $6' accepted as '<*>2!?Al$6'
+1 0:00:00:21 - Rule #20: '<* >2 !?A l $0' accepted as '<*>2!?Al$0'
+1 0:00:00:22 - Rule #21: '<* >2 !?A l $.' accepted as '<*>2!?Al$.'
+1 0:00:00:23 - Rule #22: '<* >2 !?A l $?' accepted as '<*>2!?Al$?'
+1 0:00:00:25 - Rule #23: '/?p @?p >3 l' accepted as '/?p@?p>3l'
+1 0:00:00:25 - Rule #24: '/?v @?v >3 l' accepted as '/?v@?v>3l'
+1 0:00:00:25 - Rule #25: '/?w @?w >3 l' accepted as '/?w@?w>3l'
+1 0:00:00:25 - Rule #26: '-c <7 >1 !?A c d' accepted as '<7>1!?Acd'
+1 0:00:00:26 - Rule #27: '-c <+ >2 !?A c r' accepted as '<+>2!?Acr'
+1 0:00:00:27 - Rule #28: '-c >2 !?A l M r Q c' accepted as '>2!?AlMrQc'
+1 0:00:00:29 - Rule #29: '<7 >1 !?A l d M 'l f Q' accepted as '<7>1!?AldM'lfQ'
+1 0:00:00:29 - Rule #30: '-c <+ >2 !?A l M r Q c r' accepted as '<+>2!?AlMrQcr'
+1 0:00:00:30 - Rule #31: '>2 !?A l ^2' accepted as '>2!?Al^2'
+1 0:00:00:32 - Rule #32: '>2 !?A l ^4' accepted as '>2!?Al^4'
+1 0:00:00:33 - Rule #33: '-c <* >2 !?A c $2' accepted as '<*>2!?Ac$2'
+1 0:00:00:34 - Rule #34: '-c <* >2 !?A c $!' accepted as '<*>2!?Ac$!'
+1 0:00:00:35 - Rule #35: '-c <* >2 !?A c $3' accepted as '<*>2!?Ac$3'
+1 0:00:00:36 - Rule #36: '-c <* >2 !?A c $9' accepted as '<*>2!?Ac$9'
+1 0:00:00:38 - Rule #37: '-c <* >2 !?A c $5' accepted as '<*>2!?Ac$5'
+1 0:00:00:39 - Rule #38: '-c <* >2 !?A c $7' accepted as '<*>2!?Ac$7'
+1 0:00:00:40 - Rule #39: '-c <* >2 !?A c $4' accepted as '<*>2!?Ac$4'
+1 0:00:00:41 - Rule #40: '-c <* >2 !?A c $6' accepted as '<*>2!?Ac$6'
+1 0:00:00:42 - Rule #41: '-c <* >2 !?A c $8' accepted as '<*>2!?Ac$8'
+1 0:00:00:44 - Rule #42: '-c <* >2 !?A c $.' accepted as '<*>2!?Ac$.'
+1 0:00:00:45 - Rule #43: '-c <* >2 !?A c $?' accepted as '<*>2!?Ac$?'
+1 0:00:00:46 - Rule #44: '-c <* >2 !?A c $0' accepted as '<*>2!?Ac$0'
+1 0:00:00:47 - Rule #45: '>2 !?A l ^3' accepted as '>2!?Al^3'
+1 0:00:00:48 - Rule #46: '>2 !?A l ^7' accepted as '>2!?Al^7'
+1 0:00:00:50 - Rule #47: '>2 !?A l ^9' accepted as '>2!?Al^9'
+1 0:00:00:51 - Rule #48: '>2 !?A l ^5' accepted as '>2!?Al^5'
+1 0:00:00:52 - Rule #49: '>2 !?A l ^6' accepted as '>2!?Al^6'
+1 0:00:00:53 - Rule #50: '>2 !?A l ^8' accepted as '>2!?Al^8'
+1 0:00:00:54 - Rule #51: '-c <* >2 !?A c p' accepted as '<*>2!?Acp'
+1 0:00:00:56 - Rule #52: '-: <* >2 !?A l M P Q' accepted as '<*>2!?AlMPQ'
+1 0:00:00:57 - Rule #53: '-: <* >2 !?A l M I Q' accepted as '<*>2!?AlMIQ'
+1 0:00:00:58 - Rule #54: '-c <* >2 !?A c M P Q' accepted as '<*>2!?AcMPQ'
+1 0:00:00:59 - Rule #55: '-c <* >2 !?A c M I Q' accepted as '<*>2!?AcMIQ'
+3 0:00:01:00 - Rule #56: '-s x**' rejected
+3 0:00:01:00 - Rule #57: '-s-c x** M l Q' rejected
+3 0:00:01:00 Session completed
+1 0:00:01:00 - Rule #56: '-s x**' rejected
+1 0:00:01:00 - Rule #57: '-s-c x** M l Q' rejected
+1 0:00:01:00 Waiting for 3 children to terminate
+2 0:00:01:00 - Rule #55: '-c <* >2 !?A c M I Q' accepted as '<*>2!?AcMIQ'
+2 0:00:01:01 - Rule #56: '-s x**' rejected
+2 0:00:01:01 - Rule #57: '-s-c x** M l Q' rejected
+2 0:00:01:01 Session completed
+4 0:00:01:00 - Rule #55: '-c <* >2 !?A c M I Q' accepted as '<*>2!?AcMIQ'
+4 0:00:01:01 - Rule #56: '-s x**' rejected
+4 0:00:01:01 - Rule #57: '-s-c x** M l Q' rejected
+4 0:00:01:01 Session completed
+1 0:00:01:01 Session completed
