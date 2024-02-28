@@ -32,5 +32,7 @@ chiricsen:Britisher
 dunawitec:Garcons
 baignolje:Antichurch
 liciolog:prewarned7
+breakingum:unquiets9
+teeratec:desertions6
 
-34 password hashes cracked, 16 left
+36 password hashes cracked, 14 left
